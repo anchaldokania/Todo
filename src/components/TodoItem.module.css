@@ -1,0 +1,26 @@
+.item {
+  margin: 1rem 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #f7f5ef;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  margin: 0 0.5rem;
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+}
+.icon:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.subitem {
+  margin: 0.5rem 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 0.5rem;
+  background-color: #e6caa0;
+  display: flex;
+  justify-content: space-between;
+}
